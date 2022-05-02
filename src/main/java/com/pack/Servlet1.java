@@ -17,8 +17,8 @@ public class Servlet1 extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		int n1=Integer.parseInt(req.getParameter("t1"));
-		int n2=Integer.parseInt(req.getParameter("t1"));
-		int n3=Integer.parseInt(req.getParameter("t1"));
+		int n2=Integer.parseInt(req.getParameter("t2"));
+		int n3=Integer.parseInt(req.getParameter("t3"));
 		
 		int sum=n1+n2+n3;
 		
